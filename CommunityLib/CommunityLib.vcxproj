@@ -16,6 +16,7 @@
     <ClInclude Include="Disassembler.h" />
     <ClInclude Include="Dispatcher.h" />
     <ClInclude Include="LibSocket.h" />
+    <ClInclude Include="Map XML Parser.h" />
     <ClInclude Include="Network.h" />
     <ClInclude Include="Packet.h" />
     <ClInclude Include="PacketToken.h" />
@@ -24,6 +25,7 @@
     <ClInclude Include="Session.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="ToogleAble.h" />
+    <ClInclude Include="XML Parser.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Accessor.cpp" />
@@ -31,11 +33,13 @@
     <ClCompile Include="Disassembler.cpp" />
     <ClCompile Include="Dispatcher.cpp" />
     <ClCompile Include="LibSocket.cpp" />
+    <ClCompile Include="Map XML Parser.cpp" />
     <ClCompile Include="Packet.cpp" />
     <ClCompile Include="PatternScanner.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="Session.cpp" />
     <ClCompile Include="ToogleAble.cpp" />
+    <ClCompile Include="XML Parser.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{22B14069-89B6-4A6E-B4C7-44D08DDF9511}</ProjectGuid>

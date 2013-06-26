@@ -77,7 +77,7 @@ private:
 	Map* currentMap;
 
 	void UpdateRope(Rope* rope, Map* map); //calculate distance from rope to closest footholds (bottom/top)
-	int calculateDistance(int x1, int y1, int x2, int y2); //helper for UpdateRope
+	static int calculateDistance(int x1, int y1, int x2, int y2); //helper for UpdateRope
 
 	vector<Region> regions;
 
